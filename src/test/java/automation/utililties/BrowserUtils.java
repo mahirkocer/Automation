@@ -1,10 +1,11 @@
 package automation.utililties;
 
 import com.github.javafaker.Faker;
+import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.testng.Assert;
+
 
 public class BrowserUtils {
     public static void verifyTitle(String expected){

@@ -1,3 +1,0 @@
-file:src/test/resources/features/logout.feature:5
-file:src/test/resources/features/registeration.feature:28
-file:src/test/resources/features/login.feature:5

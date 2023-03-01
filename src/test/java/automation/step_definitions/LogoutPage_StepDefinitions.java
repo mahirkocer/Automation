@@ -4,9 +4,10 @@ import automation.pages.User_Login_Page;
 import automation.utililties.Driver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.junit.Assert;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
+
 
 public class LogoutPage_StepDefinitions {
 User_Login_Page userPage = new User_Login_Page();

@@ -3,7 +3,8 @@ package automation.step_definitions;
 import automation.pages.LoginPage;
 import automation.utililties.ConfigurationReader;
 import io.cucumber.java.en.When;
-import org.testng.Assert;
+import org.junit.Assert;
+
 
 public class LoginPage_StepDefinitions {
 LoginPage loginPage = new LoginPage();
